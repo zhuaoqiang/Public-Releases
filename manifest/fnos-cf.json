@@ -2,20 +2,20 @@
   "schema_version": 1,
   "product_id": "fnos-cf",
   "product_name": "fnOS-CF",
-  "version": "0.3.6",
-  "tag": "fnos-cf-v0.3.6",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/fnos-cf-v0.3.6",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/fnos-cf-v0.3.6",
+  "version": "0.3.7",
+  "tag": "fnos-cf-v0.3.7",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/fnos-cf-v0.3.7",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/fnos-cf-v0.3.7",
   "asset": {
-    "name": "fnOS-CF-0.3.6.fpk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/fnos-cf-v0.3.6/fnOS-CF-0.3.6.fpk",
-    "sha256": "45960283c9867b7a9f4ff07d93dab597adb83b50c9bc5a9f642d8feac03488ee",
-    "size": 19704912
+    "name": "fnOS-CF-0.3.7.fpk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/fnos-cf-v0.3.7/fnOS-CF-0.3.7.fpk",
+    "sha256": "650422fcefaf02d0705b4415e6e22239ac7e08311074af925c7916f4c28e3d89",
+    "size": 19648362
   },
   "sha256_asset": {
-    "name": "fnOS-CF-0.3.6.fpk.sha256",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/fnos-cf-v0.3.6/fnOS-CF-0.3.6.fpk.sha256"
+    "name": "fnOS-CF-0.3.7.fpk.sha256",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/fnos-cf-v0.3.7/fnOS-CF-0.3.7.fpk.sha256"
   },
-  "published_at": "2026-09-30T19:28:01Z",
-  "notes": "fnOS-CF v0.3.6：新增文件服务；服务映射正式命名；支持只读/读写与匿名/登录访问。安装仍由 fnOS 应用中心手动完成。"
+  "published_at": "2026-09-30T22:33:47Z",
+  "notes": "fnOS-CF v0.3.7 修正版：在线更新切换到 Public-Releases，优先 GitHub API，Raw 作为回退；安装仍由 fnOS 应用中心完成。"
 }
