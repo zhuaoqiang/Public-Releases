@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "product_id": "easylink-windows",
+  "product_name": "EasyLink Windows B/C",
+  "version": "1.0.1.0",
+  "tag": "easylink-windows-v1.0.1.0",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/easylink-windows-v1.0.1.0",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/easylink-windows-v1.0.1.0",
+  "assets": {
+    "B": {
+      "name": "EasyLink-B.exe",
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/EasyLink-B.exe",
+      "sha256": "51c4182903181cf65aafcfe642dd0f14d17cf4f6ff94398dec60e57442f98de8",
+      "size": 5063168
+    },
+    "C": {
+      "name": "EasyLink-C.exe",
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/EasyLink-C.exe",
+      "sha256": "6c47c2a6e729bf2bc283f78af885b6d91723f7507007895298709f336f53658c",
+      "size": 5078528
+    },
+    "release_assets": {
+      "name": "release-assets.json",
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/release-assets.json"
+    }
+  },
+  "update_control": {
+    "mode": "backend_signed_policy",
+    "endpoint": "https://easylink.bmpw.pw/api/v1/update-policy",
+    "note": "Windows B/C continue to use the EasyLink Server signed update policy. This manifest is the public release index, not the client update authority."
+  },
+  "published_at": "2026-10-01T05:49:58Z",
+  "source_repository": "zhuaoqiang/EasyLink",
+  "source_commit": "9bbf3a8b2d81a418dd5c8e6fa1300a55f03af1c9",
+  "notes": "Formal 1.0.1.0 release: EasyTier bootstrap cache and async refresh reliability; preserves B wait mode, overlay isolation, relay restrictions, and C hidden grace restore behavior."
+}
