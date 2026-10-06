@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-06 — Car-Collector 1.1.9 / 1019
+
+完成：
+- 新增产品命名空间 `car-collector`，Tag `car-collector-v1.1.9`。
+- GitHub Release 发布 `collector-1019.apk` 与 SHA256 校验文件。
+- 新增 `manifest/car-collector.json`，记录版本、资产、SHA256、发布时间、源码提交与现有车机更新通道。
+- 车机正式更新通道仍使用 `wj.bmpw.pw`，本仓作为统一公共发布镜像与标准产品索引，不改变现有客户端地址。
+
+验证：
+- AI-PC-Bridge G run `37475101949`：Release 创建成功并重新下载资产校验。
+- APK SHA256：`02e42073e0cd9af02d71ff02c39ad323fbbd5d8d99985f117f4095312b3ab0bc`。
+
 ## 2026-10-05 — 统一公共发布仓定位收口
 
 完成：
