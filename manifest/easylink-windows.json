@@ -2,18 +2,18 @@
   "schema_version": 2,
   "product_id": "easylink-windows",
   "product_name": "EasyLink BC",
-  "version": "1.1.0.0",
-  "tag": "easylink-windows-v1.1.0.0",
+  "version": "1.1.0.1",
+  "tag": "easylink-windows-v1.1.0.1",
   "prerelease": true,
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/easylink-windows-v1.1.0.0",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/easylink-windows-v1.1.0.0",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/easylink-windows-v1.1.0.1",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/easylink-windows-v1.1.0.1",
   "assets": {
     "BC": {
       "kind": "primary",
       "name": "EasyLink-BC.exe",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-BC.exe",
-      "sha256": "eb38fb7c4b615e5f013651d8afff7029dec373a32c94520db99e07192d5eda38",
-      "size": 5159424
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.1/EasyLink-BC.exe",
+      "sha256": "dc76af22c8b109567934bfd5773be7492eeca46466cfb735dc7a42c52c3a6e4a",
+      "size": 5185024
     },
     "B": {
       "kind": "legacy_migration",
@@ -43,8 +43,8 @@
     },
     "release_assets": {
       "name": "release-assets.json",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/release-assets.json",
-      "sha256": "f52c6858a90255f0254aadd7ea882005ec0e9c9acc85c70932510ff16bd9f042",
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.1/release-assets.json",
+      "sha256": "99553649c02de431895409b94f6472e4f1dfe45a306bb48d634d2b3b5ffb0317",
       "size": 233
     }
   },
@@ -52,17 +52,17 @@
     "mode": "backend_signed_policy",
     "endpoint": "https://easylink.bmpw.pw/api/v1/update-policy",
     "tracks": {
-      "BC/stable": "Ordinary and unlogged EasyLink BC clients use the stable track. It remains disabled while 1.1.0.0 is internal-test only.",
-      "BC/test": "Accounts marked test in EasyLink Server receive internal EasyLink BC test revisions.",
-      "B/legacy": "Historical EasyLink-B clients receive an immediate mandatory one-time migration wrapper to EasyLink BC 1.1.0.0.",
-      "C/legacy": "Historical EasyLink-C clients receive an immediate mandatory one-time migration wrapper to EasyLink BC 1.1.0.0."
+      "BC/stable": "Ordinary and unlogged EasyLink BC clients use stable. It remains disabled during internal testing; its stored target remains 1.1.0.0.",
+      "BC/test": "Accounts marked test in EasyLink Server now receive EasyLink BC 1.1.0.1, the new unified workspace and Spotlight-guide build.",
+      "B/legacy": "Historical EasyLink-B clients still receive the immediate mandatory one-time 1.1.0.0 migration wrapper; after landing in BC they follow BC channels.",
+      "C/legacy": "Historical EasyLink-C clients still receive the immediate mandatory one-time 1.1.0.0 migration wrapper; after landing in BC they follow BC channels."
     },
-    "note": "EasyLink-BC.exe remains the only maintained Windows product. EasyLink-B.exe and EasyLink-C.exe are compatibility wrappers only; both embed and land the exact EasyLink BC 1.1.0.0 target bytes."
+    "note": "EasyLink-BC.exe is the only maintained Windows product. 1.1.0.1 is the current internal-test BC build. EasyLink-B.exe and EasyLink-C.exe remain one-time 1.1.0.0 compatibility wrappers only."
   },
-  "published_at": "2026-10-05T23:58:32Z",
+  "published_at": "2026-10-06T08:16:53Z",
   "source_repository": "zhuaoqiang/EasyLink",
-  "source_commit": "fc0bd01a7f52abb6da8e425e26855ccbd865994a",
+  "source_commit": "d083ae5f2be6a6a174696c233dee706ab38e81b0",
   "legacy_migration_source_commit": "c192c3b4fefb9ea70314c3b72b31a87e45603ce3",
   "server_policy_source_commit": "bdfe49b4d367a7200ee0b09970630220651342d3",
-  "notes": "Internal-test EasyLink BC 1.1.0.0 plus one-time forced migration wrappers for historical EasyLink-B/C. After migration, clients use BC stable/test only."
+  "notes": "Internal-test EasyLink BC 1.1.0.1: fully rebuilt compact share-first workspace, in-place login expansion, progressive 1/2/3 remote slots, redesigned BC float/settings surface, and Spotlight coach-mark onboarding. Legacy B/C wrappers remain on 1.1.0.0."
 }
