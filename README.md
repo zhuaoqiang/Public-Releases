@@ -18,6 +18,7 @@
 
 - fnOS-CF：`manifest/fnos-cf.json`
 - EasyLink Windows：迁移完成后使用 `manifest/easylink-windows.json`
+- Car-Collector：`manifest/car-collector.json`
 
 ## 维护原则
 
