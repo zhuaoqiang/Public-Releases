@@ -15,40 +15,24 @@
       "sha256": "eb38fb7c4b615e5f013651d8afff7029dec373a32c94520db99e07192d5eda38",
       "size": 5159424
     },
-    "B": {
-      "kind": "legacy_migration",
-      "name": "EasyLink-B.exe",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-B.exe",
-      "sha256": "b0c908238cfb29bd4a5698b1a618faedc55cbbf3594d56d9549c2c98b1d54857",
-      "size": 5248512
-    },
-    "C": {
-      "kind": "legacy_migration",
-      "name": "EasyLink-C.exe",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-C.exe",
-      "sha256": "1b2dc6c0df8c21e91a943041e9cf04aa99dfe5f3245addeef87c53f65082b08f",
-      "size": 5256192
-    },
     "release_assets": {
       "name": "release-assets.json",
       "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/release-assets.json",
-      "sha256": "519c673a07ae56825b242f79762836577554325e52c890a8656f358b7e6911a9",
-      "size": 761
+      "sha256": "f52c6858a90255f0254aadd7ea882005ec0e9c9acc85c70932510ff16bd9f042",
+      "size": 233
     }
   },
   "update_control": {
     "mode": "backend_signed_policy",
     "endpoint": "https://easylink.bmpw.pw/api/v1/update-policy",
     "tracks": {
-      "BC/stable": "Unlogged and ordinary accounts receive stable EasyLink BC releases.",
-      "BC/test": "Accounts marked test in EasyLink Server receive every internal test revision.",
-      "B/stable": "Legacy EasyLink-B forced migration package only.",
-      "C/stable": "Legacy EasyLink-C forced migration package only."
+      "BC/stable": "Ordinary and unlogged clients use the stable track. It is intentionally disabled while the unified Windows product remains internal-test only.",
+      "BC/test": "Accounts marked test in EasyLink Server receive internal test revisions."
     },
-    "note": "EasyLink-BC.exe is the only maintained Windows product. EasyLink-B.exe and EasyLink-C.exe in this tag are one-time migration packages."
+    "note": "EasyLink-BC.exe is the only supported Windows product. Pre-unification EasyLink-B.exe and EasyLink-C.exe are not maintained or guaranteed to auto-update."
   },
   "published_at": "2026-10-05T23:58:32Z",
   "source_repository": "zhuaoqiang/EasyLink",
   "source_commit": "fc0bd01a7f52abb6da8e425e26855ccbd865994a",
-  "notes": "Internal-test 1.1.0.0 unified release: unlogged local sharing, login-unlocked remote access, progressive 1/2/3 remote slots, scheme-3 vehicle route selection, stable/test update tracks, and forced migration from legacy Windows B/C."
+  "notes": "Internal-test 1.1.0.0 unified release: unlogged local sharing, login-unlocked remote access, progressive 1/2/3 remote slots, scheme-3 vehicle route selection, and BC stable/test update channels."
 }
