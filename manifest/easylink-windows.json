@@ -1,36 +1,54 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "product_id": "easylink-windows",
-  "product_name": "EasyLink Windows B/C",
-  "version": "1.0.1.0",
-  "tag": "easylink-windows-v1.0.1.0",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/easylink-windows-v1.0.1.0",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/easylink-windows-v1.0.1.0",
+  "product_name": "EasyLink BC",
+  "version": "1.1.0.0",
+  "tag": "easylink-windows-v1.1.0.0",
+  "prerelease": true,
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/easylink-windows-v1.1.0.0",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/easylink-windows-v1.1.0.0",
   "assets": {
+    "BC": {
+      "kind": "primary",
+      "name": "EasyLink-BC.exe",
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-BC.exe",
+      "sha256": "eb38fb7c4b615e5f013651d8afff7029dec373a32c94520db99e07192d5eda38",
+      "size": 5159424
+    },
     "B": {
+      "kind": "legacy_migration",
       "name": "EasyLink-B.exe",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/EasyLink-B.exe",
-      "sha256": "51c4182903181cf65aafcfe642dd0f14d17cf4f6ff94398dec60e57442f98de8",
-      "size": 5063168
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-B.exe",
+      "sha256": "b0c908238cfb29bd4a5698b1a618faedc55cbbf3594d56d9549c2c98b1d54857",
+      "size": 5248512
     },
     "C": {
+      "kind": "legacy_migration",
       "name": "EasyLink-C.exe",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/EasyLink-C.exe",
-      "sha256": "6c47c2a6e729bf2bc283f78af885b6d91723f7507007895298709f336f53658c",
-      "size": 5078528
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/EasyLink-C.exe",
+      "sha256": "1b2dc6c0df8c21e91a943041e9cf04aa99dfe5f3245addeef87c53f65082b08f",
+      "size": 5256192
     },
     "release_assets": {
       "name": "release-assets.json",
-      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.0.1.0/release-assets.json"
+      "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/easylink-windows-v1.1.0.0/release-assets.json",
+      "sha256": "519c673a07ae56825b242f79762836577554325e52c890a8656f358b7e6911a9",
+      "size": 761
     }
   },
   "update_control": {
     "mode": "backend_signed_policy",
     "endpoint": "https://easylink.bmpw.pw/api/v1/update-policy",
-    "note": "Windows B/C continue to use the EasyLink Server signed update policy. This manifest is the public release index, not the client update authority."
+    "tracks": {
+      "BC/stable": "Unlogged and ordinary accounts receive stable EasyLink BC releases.",
+      "BC/test": "Accounts marked test in EasyLink Server receive every internal test revision.",
+      "B/stable": "Legacy EasyLink-B forced migration package only.",
+      "C/stable": "Legacy EasyLink-C forced migration package only."
+    },
+    "note": "EasyLink-BC.exe is the only maintained Windows product. EasyLink-B.exe and EasyLink-C.exe in this tag are one-time migration packages."
   },
-  "published_at": "2026-10-01T05:49:58Z",
+  "published_at": "2026-10-05T23:58:32Z",
   "source_repository": "zhuaoqiang/EasyLink",
-  "source_commit": "9bbf3a8b2d81a418dd5c8e6fa1300a55f03af1c9",
-  "notes": "Formal 1.0.1.0 release: EasyTier bootstrap cache and async refresh reliability; preserves B wait mode, overlay isolation, relay restrictions, and C hidden grace restore behavior."
+  "source_commit": "fc0bd01a7f52abb6da8e425e26855ccbd865994a",
+  "notes": "Internal-test 1.1.0.0 unified release: unlogged local sharing, login-unlocked remote access, progressive 1/2/3 remote slots, scheme-3 vehicle route selection, stable/test update tracks, and forced migration from legacy Windows B/C."
 }
