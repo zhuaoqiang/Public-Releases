@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-07 — Car-Collector 1.2.1 / 1021
+
+完成：
+- 发布 Tag car-collector-v1.2.1。
+- GitHub Release 发布 collector-1021.apk 与 SHA256 校验文件。
+- manifest/car-collector.json 已切换到 1.2.1 / 1021。
+- 车机正式更新通道继续使用 wj.bmpw.pw；公共仓继续作为统一发布镜像和标准产品索引。
+
+验证：
+- G run 37556544971：Release 创建成功；APK asset 元数据 SHA256 为 0d931a7f790b273fe7d49c5238172987dd50c679177fb7b1a47e3786377af674，大小 1,074,607 bytes。
+- 按当前发布规则未重新下载整包 APK；正式车机通道由 G run 37556407601 完成线上清单读回与服务器端 APK SHA256 校验。
+
 ## 2026-10-07 — Car-Collector 1.2.0 / 1020
 
 完成：
