@@ -2,27 +2,27 @@
   "schema_version": 1,
   "product_id": "car-collector",
   "product_name": "Car-Collector",
-  "version": "1.1.9",
-  "version_code": 1019,
-  "tag": "car-collector-v1.1.9",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-collector-v1.1.9",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-collector-v1.1.9",
+  "version": "1.2.0",
+  "version_code": 1020,
+  "tag": "car-collector-v1.2.0",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-collector-v1.2.0",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-collector-v1.2.0",
   "asset": {
-    "name": "collector-1019.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.1.9/collector-1019.apk",
-    "sha256": "02e42073e0cd9af02d71ff02c39ad323fbbd5d8d99985f117f4095312b3ab0bc",
-    "size": 1069491
+    "name": "collector-1020.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.2.0/collector-1020.apk",
+    "sha256": "69cc6b5b4347e78ac12d392ebe531d2db2246e2a2c3b28e919ec0f948cef96db",
+    "size": 1074171
   },
   "sha256_asset": {
-    "name": "collector-1019.apk.sha256",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.1.9/collector-1019.apk.sha256"
+    "name": "collector-1020.apk.sha256",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.2.0/collector-1020.apk.sha256"
   },
-  "published_at": "2026-10-06T13:59:29Z",
+  "published_at": "2026-10-07T00:56:34Z",
   "source_repository": "zhuaoqiang/Car-Collector",
-  "source_commit": "7d5bcea34a105f30395bf025c074125bc1bd6461",
+  "source_commit": "0e843ec9ac8cb00b216843b96d32c2914a0dae2d",
   "operational_update_channel": {
     "manifest": "http://wj.bmpw.pw/diplay/config/apps.json",
-    "apk_url": "http://wj.bmpw.pw/diplay/collector/collector-1019.apk"
+    "apk_url": "http://wj.bmpw.pw/diplay/collector/collector-1020.apk"
   },
-  "notes": "Car-Collector 1.1.9 / 1019：软件更新列表提高可读性，使用颜色+状态文字+版本关系区分有更新、可安装、已最新、本机较新和系统不兼容；支持 apps.json 可选 published_at 发布时间字段。"
+  "notes": "Car-Collector 1.2.0 / 1020：主界面重构为低饱和蓝灰视觉；空闲通道状态隐藏，运行/待续传改为右下角抽屉；多通道按启动顺序自下而上堆叠；软件更新列表高度压缩到 72dp。"
 }
