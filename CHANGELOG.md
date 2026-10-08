@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-08 — Car-Collector 1.4.0 / 1040
+
+完成：
+- 发布 Tag `car-collector-v1.4.0`，包含 `collector-1040.apk` 与 SHA256 校验文件。
+- `manifest/car-collector.json` 切换到 1.4.0 / 1040。
+- 车机正式更新通道继续使用 `wj.bmpw.pw`。
+- 云采集任务发布侧启用服务器统一全局发号、`request_id` 幂等和稳定 `task_id`；历史活动任务已归档清空。
+
+验证：
+- G run `37754125379`：72 tests / 0 failures / 0 errors / 0 skipped，Lint 0 error / 54 warnings，APK 签名、包名、1040 / 1.4.0 均通过。
+- G run `37754996152`：服务器统一发号器与 GitHub 精确脚本 SHA256 一致；活动任务数 0，catalog revision 12，发号基线 current_sequence 29。
+- G run `37755185203`：线上 `apps.json` 读回 1040 / 1.4.0，服务器端 APK SHA256 与候选包一致；按当前规则不重新下载整包公网 APK。
+- G run `37755345417`：GitHub Release asset 元数据 SHA256 为 `98b090deb5284aec8d9b2521e6fab0d8ad3b7cf61c22be4e6fa55024caa28bc1`，大小 1,088,771 bytes。
+
 ## 2026-10-08 — Car-Collector 1.3.0 / 1030
 
 完成：
