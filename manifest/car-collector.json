@@ -2,27 +2,27 @@
   "schema_version": 1,
   "product_id": "car-collector",
   "product_name": "Car-Collector",
-  "version": "1.3.0",
-  "version_code": 1030,
-  "tag": "car-collector-v1.3.0",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-collector-v1.3.0",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-collector-v1.3.0",
+  "version": "1.4.0",
+  "version_code": 1040,
+  "tag": "car-collector-v1.4.0",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-collector-v1.4.0",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-collector-v1.4.0",
   "asset": {
-    "name": "collector-1030.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.3.0/collector-1030.apk",
-    "sha256": "cfadec0edb236cf1c47c7a54002c8f78a65b48c7fb95826aff651166fc1c2b82",
-    "size": 1079863
+    "name": "collector-1040.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.4.0/collector-1040.apk",
+    "sha256": "98b090deb5284aec8d9b2521e6fab0d8ad3b7cf61c22be4e6fa55024caa28bc1",
+    "size": 1088771
   },
   "sha256_asset": {
-    "name": "collector-1030.apk.sha256",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.3.0/collector-1030.apk.sha256"
+    "name": "collector-1040.apk.sha256",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-collector-v1.4.0/collector-1040.apk.sha256"
   },
-  "published_at": "2026-10-08T00:48:25Z",
+  "published_at": "2026-10-08T09:15:36Z",
   "source_repository": "zhuaoqiang/Car-Collector",
-  "source_commit": "427af37f9482edf4856435fc996e630bce5cd448",
+  "source_commit": "90369736fb3d0eadffa789dfbb512d60a17c8a44",
   "operational_update_channel": {
     "manifest": "http://wj.bmpw.pw/diplay/config/apps.json",
-    "apk_url": "http://wj.bmpw.pw/diplay/collector/collector-1030.apk"
+    "apk_url": "http://wj.bmpw.pw/diplay/collector/collector-1040.apk"
   },
-  "notes": "Car-Collector 1.3.0 / 1030：云端采集任务改为独立状态卡片；明确区分可采集、采集中、等待、待续传和已完成；用户启动的云端任务完成后弹提示；采集区重新分组并采用中性石墨灰与柔和雾蓝配色。"
+  "notes": "Car-Collector 1.4.0 / 1040：任务按稳定 task_id 记录成功次数；卡片显示已完成与已采集 N 次；修复等待状态不一致；增强右下角状态提示；服务器启用全局原子序号、request_id 幂等与 AI 可读完成状态索引。"
 }
