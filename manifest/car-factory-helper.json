@@ -2,21 +2,21 @@
   "schema_version": 1,
   "product_id": "car-factory-helper",
   "product_name": "车机权限助手",
-  "version": "2.0.11-helper.2",
-  "version_code": 2011,
+  "version": "2.0.12-helper.3",
+  "version_code": 2012,
   "channel": "validation",
-  "tag": "car-factory-helper-v2.0.11-helper.2",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.11-helper.2",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.11-helper.2",
+  "tag": "car-factory-helper-v2.0.12-helper.3",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.12-helper.3",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.12-helper.3",
   "asset": {
-    "name": "factory-helper-2011.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.11-helper.2/factory-helper-2011.apk",
-    "sha256": "df379ae573fef88dc1699df3207940cdd0d8bac62c94e35c5cb1242a5cbe932c",
+    "name": "factory-helper-2012.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.12-helper.3/factory-helper-2012.apk",
+    "sha256": "4e6c0a4df29d25612ad3fcaeb576f391ba08cb35a4073d84fdadc51eee6dcd8a",
     "size": 41363
   },
-  "published_at": "2026-10-08T10:04:34.497338+00:00",
+  "published_at": "2026-10-08T10:43:00+00:00",
   "source_repository": "zhuaoqiang/Car-Collector",
-  "source_commit": "c3f4f539fc7ebfcfebb7328dc45d3a294effca49",
+  "source_commit": "1156998d6d8c78e7042d391200ea34737af93120",
   "compatibility": {
     "min_sdk": 27,
     "package": "cn.yunovo.nxos.factorytest",
@@ -24,5 +24,5 @@
     "signer_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
     "device_verified": false
   },
-  "notes": "2010已确认实车UID1000；2011新增静默安装测试待实车验证，不代表root。"
+  "notes": "2010已确认实车UID1000；2012新增静默安装测试待实车验证，不代表root。"
 }
