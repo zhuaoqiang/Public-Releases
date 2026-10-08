@@ -14,10 +14,10 @@
     "sha256": "750ba0315288ba32c56d68d81bd613f55cd9b755a335ccfb9dac46343cf08bca",
     "size": 804227
   },
-  "published_at": "2026-10-08T17:11:39+00:00",
+  "published_at": "2026-10-08T17:17:01+00:00",
   "source_repository": "zhuaoqiang/Car-Collector",
   "source_commit": "9479d3b0d74b9dd386122d4a69f2b509ace7dc64",
-  "documentation_commit": "9479d3b0d74b9dd386122d4a69f2b509ace7dc64",
+  "documentation_commit": "5ddbacdcb5f891e0019669f665b3c273924cbbf8",
   "compatibility": {
     "min_sdk": 27,
     "package": "cn.yunovo.nxos.factorytest",
