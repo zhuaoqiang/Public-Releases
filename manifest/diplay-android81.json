@@ -45,5 +45,5 @@
     "wireless_carplay_verified": false
   },
   "notes": "DiPlay 安卓8.1 test29（测试版）合并官方发布 v0.2.15，整合音乐缓冲恢复、视频兼容、设置布局和旧系统网络改进。保留本版有线生命周期修正、四通道音量/试听/保存、USB后台待命、有线蓝牙备用、云沃导航和融合采集器接口。应用内更新接修改版独立产品清单。\n\n覆盖已经初始化的原同签名版本，保留应用数据；公开包不含认证资产或私钥。完整主机测试及API27审计通过，详细证据见源码配套校验；整版车辆、真实Binder仍待复测，不宣称厂商无线或手机麦克风问题已修复。完整对应源码可从 http://wj.bmpw.pw/diplay/app/DiPlay-source.zip 下载。",
-  "source_archive_commit": "7a2d49c629b084ea2614220fdd2505971b3b658c"
+  "source_archive_commit": "5bf50bdc7735efe1b5edd2b5ad82a25b178ced6a"
 }
