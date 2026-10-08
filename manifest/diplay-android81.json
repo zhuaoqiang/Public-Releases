@@ -44,5 +44,5 @@
     "wireless_carplay_verified": false
   },
   "notes": "DiPlay 安卓8.1 test28（测试版）。修正旧有线连接清理影响替换连接、USB读取等待期间释放请求的生命周期边界；补可导出的有界USB/NCM/TUN/TCP诊断。适配指定新融合采集器 cn.yunovo.nxos.factorytest 的平台证书/UID身份，不保留旧采集器兼容。\n\n覆盖已完成初始化的原同签名版本，保留应用数据；公开包不含认证资产或私钥。1402项主机测试与API27应用Lint通过；真实两App Binder/车辆有线复测仍待完成，未宣称无线CarPlay或手机麦克风已修复。",
-  "source_archive_commit": "bf2552edcf326bd03dbff94f04d4a173d76e6a47"
+  "source_archive_commit": "d6988b3b0a1d1788feae21a2546cfe8617f47063"
 }
