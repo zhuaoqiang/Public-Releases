@@ -44,5 +44,5 @@
     "wireless_carplay_verified": false
   },
   "notes": "test27 增加厂商蓝牙只读运行状态诊断，配套026采集任务；RFCOMM/iAP2数据流尚未打通，无线未修复。保留有线及蓝牙音频/麦克风备用；覆盖已初始化认证的test26，勿卸载或清数据。整版及运行属性读取未实车验证。",
-  "source_archive_commit": "1b306cdc9f407e6a1d37a3e2667aec3e362089c7"
+  "source_archive_commit": "95fae4fd48249027b0e51f91165ab755a0d7402d"
 }
