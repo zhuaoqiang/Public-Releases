@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-08 — Car-Collector 1.3.0 / 1030
+
+完成：
+- 发布 Tag `car-collector-v1.3.0`，包含 `collector-1030.apk` 与 SHA256 校验文件。
+- `manifest/car-collector.json` 切换到 1.3.0 / 1030。
+- 车机正式更新通道继续使用 `wj.bmpw.pw`。
+
+验证：
+- G run `37709509929`：线上 `apps.json` 读回 1030 / 1.3.0，服务器端 APK SHA256 与候选包一致；按当前规则不重新下载整包公网 APK。
+- G run `37709624835`：GitHub Release asset 元数据 SHA256 为 `cfadec0edb236cf1c47c7a54002c8f78a65b48c7fb95826aff651166fc1c2b82`，大小 1,079,863 bytes。
+
 ## 2026-10-07 — Car-Collector 1.2.1 / 1021
 
 完成：
