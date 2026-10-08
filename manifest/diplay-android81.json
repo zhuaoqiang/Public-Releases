@@ -2,30 +2,30 @@
   "schema_version": 1,
   "product_id": "diplay-android81",
   "product_name": "DiPlay 安卓8.1",
-  "version": "0.2.12-api27-test28",
-  "version_code": 2828,
-  "tag": "diplay-android81-v0.2.12-test28",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/diplay-android81-v0.2.12-test28",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/diplay-android81-v0.2.12-test28",
+  "version": "0.2.15-api27-test29",
+  "version_code": 2829,
+  "tag": "diplay-android81-v0.2.15-test29",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/diplay-android81-v0.2.15-test29",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/diplay-android81-v0.2.15-test29",
   "asset": {
-    "name": "diplay-2828.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test28/diplay-2828.apk",
-    "sha256": "7e6fa7a3e33c8582cc9c621173476da8b9a26261e8ff3a57fd2633aeb4846aa4",
-    "size": 16331748
+    "name": "diplay-2829.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.15-test29/diplay-2829.apk",
+    "sha256": "d35f327d87fb3a8b6b019ea4962623c678fffd15d29cc08c3c3594e146b53fd6",
+    "size": 16934675
   },
   "sha256_asset": {
-    "name": "diplay-2828.apk.sha256",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test28/diplay-2828.apk.sha256"
+    "name": "diplay-2829.apk.sha256",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.15-test29/diplay-2829.apk.sha256"
   },
-  "published_at": "2026-10-08T16:57:22+00:00",
+  "published_at": "2026-10-08T18:07:21+00:00",
   "source_repository": "zhuaoqiang/DiPlay-Android8.1",
-  "source_commit": "bf2552edcf326bd03dbff94f04d4a173d76e6a47",
+  "source_commit": "7a2d49c629b084ea2614220fdd2505971b3b658c",
   "operational_update_channel": {
     "manifest": "http://wj.bmpw.pw/diplay/config/apps.json",
-    "apk_url": "http://wj.bmpw.pw/diplay/app/diplay-2828.apk"
+    "apk_url": "http://wj.bmpw.pw/diplay/app/diplay-2829.apk"
   },
   "upgrade": {
-    "from_version_code": 2827,
+    "from_version_code": 2828,
     "package": "com.shihab.diplay.hudtest",
     "signer_sha256": "8535261ba01e3e7a727ef61c93a774e8805333e407033e37e97b505a34ee06f4",
     "requires_preserved_app_data": true,
@@ -33,7 +33,8 @@
     "credential_assets_included": false
   },
   "verification": {
-    "tests": 1402,
+    "tests": 2071,
+    "passed": 2071,
     "failed": 0,
     "skipped": 0,
     "lint_errors": 0,
@@ -43,6 +44,6 @@
     "public_download_verified": true,
     "wireless_carplay_verified": false
   },
-  "notes": "DiPlay 安卓8.1 test28（测试版）。修正旧有线连接清理影响替换连接、USB读取等待期间释放请求的生命周期边界；补可导出的有界USB/NCM/TUN/TCP诊断。适配指定新融合采集器 cn.yunovo.nxos.factorytest 的平台证书/UID身份，不保留旧采集器兼容。\n\n覆盖已完成初始化的原同签名版本，保留应用数据；公开包不含认证资产或私钥。1402项主机测试与API27应用Lint通过；真实两App Binder/车辆有线复测仍待完成，未宣称无线CarPlay或手机麦克风已修复。",
-  "source_archive_commit": "d6988b3b0a1d1788feae21a2546cfe8617f47063"
+  "notes": "DiPlay 安卓8.1 test29（测试版）合并官方发布 v0.2.15，整合音乐缓冲恢复、视频兼容、设置布局和旧系统网络改进。保留本版有线生命周期修正、四通道音量/试听/保存、USB后台待命、有线蓝牙备用、云沃导航和融合采集器接口。应用内更新接修改版独立产品清单。\n\n覆盖已经初始化的原同签名版本，保留应用数据；公开包不含认证资产或私钥。完整主机测试及API27审计通过，详细证据见源码配套校验；整版车辆、真实Binder仍待复测，不宣称厂商无线或手机麦克风问题已修复。完整对应源码可从 http://wj.bmpw.pw/diplay/app/DiPlay-source.zip 下载。",
+  "source_archive_commit": "7a2d49c629b084ea2614220fdd2505971b3b658c"
 }
