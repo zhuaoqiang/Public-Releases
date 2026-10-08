@@ -1,22 +1,23 @@
 {
   "schema_version": 1,
   "product_id": "car-factory-helper",
-  "product_name": "车机权限助手",
-  "version": "2.0.13-helper.4-test",
-  "version_code": 2013,
+  "product_name": "车机采集助手",
+  "version": "2.0.14-unified-test",
+  "version_code": 2014,
   "channel": "validation",
-  "tag": "car-factory-helper-v2.0.13-helper.4-test",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.13-helper.4-test",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.13-helper.4-test",
+  "tag": "car-factory-helper-v2.0.14-unified-test",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.14-unified-test",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.14-unified-test",
   "asset": {
-    "name": "factory-helper-2013.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.13-helper.4-test/factory-helper-2013.apk",
-    "sha256": "775462417c00577aad15a5d837a56a2c91b8cbc76dbacc47bce9c9653c3a8260",
-    "size": 49555
+    "name": "factory-helper-2014.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.14-unified-test/factory-helper-2014.apk",
+    "sha256": "750ba0315288ba32c56d68d81bd613f55cd9b755a335ccfb9dac46343cf08bca",
+    "size": 804227
   },
-  "published_at": "2026-10-08T11:04:09+00:00",
+  "published_at": "2026-10-08T17:11:39+00:00",
   "source_repository": "zhuaoqiang/Car-Collector",
-  "source_commit": "9e54e80738958de86ed57d4eb4b883943627f11c",
+  "source_commit": "9479d3b0d74b9dd386122d4a69f2b509ace7dc64",
+  "documentation_commit": "9479d3b0d74b9dd386122d4a69f2b509ace7dc64",
   "compatibility": {
     "min_sdk": 27,
     "package": "cn.yunovo.nxos.factorytest",
@@ -24,5 +25,5 @@
     "signer_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
     "device_verified": false
   },
-  "notes": "2010已确认实车UID1000；2013新增静默安装测试待实车验证，不代表root。"
+  "notes": "原权限助手已确认实车UID1000，两独立安装方案获用户报告成功；融合版仍待实车验证，不代表root。"
 }
