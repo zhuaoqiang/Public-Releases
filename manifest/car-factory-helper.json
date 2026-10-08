@@ -2,21 +2,21 @@
   "schema_version": 1,
   "product_id": "car-factory-helper",
   "product_name": "车机权限助手",
-  "version": "2.0.12-helper.3",
-  "version_code": 2012,
+  "version": "2.0.13-helper.4-test",
+  "version_code": 2013,
   "channel": "validation",
-  "tag": "car-factory-helper-v2.0.12-helper.3",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.12-helper.3",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.12-helper.3",
+  "tag": "car-factory-helper-v2.0.13-helper.4-test",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/car-factory-helper-v2.0.13-helper.4-test",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/car-factory-helper-v2.0.13-helper.4-test",
   "asset": {
-    "name": "factory-helper-2012.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.12-helper.3/factory-helper-2012.apk",
-    "sha256": "4e6c0a4df29d25612ad3fcaeb576f391ba08cb35a4073d84fdadc51eee6dcd8a",
-    "size": 41363
+    "name": "factory-helper-2013.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/car-factory-helper-v2.0.13-helper.4-test/factory-helper-2013.apk",
+    "sha256": "775462417c00577aad15a5d837a56a2c91b8cbc76dbacc47bce9c9653c3a8260",
+    "size": 49555
   },
-  "published_at": "2026-10-08T10:43:00+00:00",
+  "published_at": "2026-10-08T11:04:09+00:00",
   "source_repository": "zhuaoqiang/Car-Collector",
-  "source_commit": "1156998d6d8c78e7042d391200ea34737af93120",
+  "source_commit": "9e54e80738958de86ed57d4eb4b883943627f11c",
   "compatibility": {
     "min_sdk": 27,
     "package": "cn.yunovo.nxos.factorytest",
@@ -24,5 +24,5 @@
     "signer_sha256": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
     "device_verified": false
   },
-  "notes": "2010已确认实车UID1000；2012新增静默安装测试待实车验证，不代表root。"
+  "notes": "2010已确认实车UID1000；2013新增静默安装测试待实车验证，不代表root。"
 }
