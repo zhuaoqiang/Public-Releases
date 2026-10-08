@@ -2,30 +2,30 @@
   "schema_version": 1,
   "product_id": "diplay-android81",
   "product_name": "DiPlay 安卓8.1",
-  "version": "0.2.12-api27-test26",
-  "version_code": 2826,
-  "tag": "diplay-android81-v0.2.12-test26",
-  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/diplay-android81-v0.2.12-test26",
-  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/diplay-android81-v0.2.12-test26",
+  "version": "0.2.12-api27-test27",
+  "version_code": 2827,
+  "tag": "diplay-android81-v0.2.12-test27",
+  "release_api": "https://api.github.com/repos/zhuaoqiang/Public-Releases/releases/tags/diplay-android81-v0.2.12-test27",
+  "release_page": "https://github.com/zhuaoqiang/Public-Releases/releases/tag/diplay-android81-v0.2.12-test27",
   "asset": {
-    "name": "diplay-2826.apk",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test26/diplay-2826.apk",
-    "sha256": "434386cc2b342b97f5863c54b3a1c370885641c03ed8af631266ed7b297056a5",
-    "size": 16331776
+    "name": "diplay-2827.apk",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test27/diplay-2827.apk",
+    "sha256": "0980bb6aab992a7968a83ee70405264a03446c44ddf6eef92bf765071ff9973d",
+    "size": 16331760
   },
   "sha256_asset": {
-    "name": "diplay-2826.apk.sha256",
-    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test26/diplay-2826.apk.sha256"
+    "name": "diplay-2827.apk.sha256",
+    "url": "https://github.com/zhuaoqiang/Public-Releases/releases/download/diplay-android81-v0.2.12-test27/diplay-2827.apk.sha256"
   },
-  "published_at": "2026-10-08T00:11:46+00:00",
+  "published_at": "2026-10-08T05:29:22Z",
   "source_repository": "zhuaoqiang/DiPlay-Android8.1",
-  "source_commit": "5a5596b828af793c50b7498ae9f957f3ba7c7c8d",
+  "source_commit": "8307f0d24ac5305ae62ab13866b33c4e1104f22c",
   "operational_update_channel": {
     "manifest": "http://wj.bmpw.pw/diplay/config/apps.json",
-    "apk_url": "http://wj.bmpw.pw/diplay/app/diplay-2826.apk"
+    "apk_url": "http://wj.bmpw.pw/diplay/app/diplay-2827.apk"
   },
   "upgrade": {
-    "from_version_code": 2825,
+    "from_version_code": 2826,
     "package": "com.shihab.diplay.hudtest",
     "signer_sha256": "8535261ba01e3e7a727ef61c93a774e8805333e407033e37e97b505a34ee06f4",
     "requires_preserved_app_data": true,
@@ -33,13 +33,16 @@
     "credential_assets_included": false
   },
   "verification": {
-    "tests": 1378,
+    "tests": 1384,
     "failed": 0,
     "skipped": 0,
     "lint_errors": 0,
     "api27_lint_errors": 0,
     "device_binder_tested": false,
-    "vehicle_tested": false
+    "vehicle_tested": false,
+    "public_download_verified": true,
+    "wireless_carplay_verified": false
   },
-  "notes": "基于官方0.2.12适配Android8.1：USB/触摸稳定性、四通道音量试听、有线蓝牙备用、导航广播及collector_v1；覆盖已初始化认证的test25，勿卸载或清数据。麦克风协议仍暂缓，整版未实车。"
+  "notes": "test27 增加厂商蓝牙只读运行状态诊断，配套026采集任务；RFCOMM/iAP2数据流尚未打通，无线未修复。保留有线及蓝牙音频/麦克风备用；覆盖已初始化认证的test26，勿卸载或清数据。整版及运行属性读取未实车验证。",
+  "source_archive_commit": "1b306cdc9f407e6a1d37a3e2667aec3e362089c7"
 }
