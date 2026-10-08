@@ -24,5 +24,9 @@
     "manifest": "http://wj.bmpw.pw/diplay/config/apps.json",
     "apk_url": "http://wj.bmpw.pw/diplay/collector/collector-1041.apk"
   },
-  "notes": "Car-Collector 1.4.1 / 1041：仅更新版本号，功能、界面、协议和业务逻辑不变。"
+  "notes": "Car-Collector 1.4.1 / 1041：仅更新版本号，功能、界面、协议和业务逻辑不变。",
+  "enabled": false,
+  "status": "retired",
+  "replaced_by": "car-factory-helper",
+  "replacement_manifest": "https://raw.githubusercontent.com/zhuaoqiang/Public-Releases/main/manifest/car-factory-helper.json"
 }
