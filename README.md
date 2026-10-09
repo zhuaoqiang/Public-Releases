@@ -17,8 +17,10 @@
 ## 当前产品
 
 - fnOS-CF：`manifest/fnos-cf.json`
-- EasyLink Windows：迁移完成后使用 `manifest/easylink-windows.json`
-- Car-Collector：`manifest/car-collector.json`
+- EasyLink Windows：`manifest/easylink-windows.json`
+- Car-Collector（历史/兼容清单）：`manifest/car-collector.json`
+- 车机采集助手：`manifest/car-factory-helper.json`
+- DiPlay Android 8.1：`manifest/diplay-android81.json`
 
 ## 维护原则
 
