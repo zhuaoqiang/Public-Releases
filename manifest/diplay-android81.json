@@ -45,5 +45,5 @@
     "wireless_carplay_verified": false
   },
   "notes": "DiPlay 安卓8.1 test30（测试版）：修复有线USB认证后，自身IPv6邻居查询缺少明确二层应答的代码路径。NCM直接回应合法自有NS，携带目标MAC与有效校验和；记录实际发送/暂未就绪与有限NDP/TCP诊断，融合采集器可读取。其他协议保留原路径。\n\n覆盖已初始化的原同签名版，保留数据及既有音量、后台待命、导航、采集接口。完整主机测试、API27审计和公开下载校验通过；车辆仍需复测，不能宣称全部断连或卡顿已解决。厂商无线及手机麦克风仍待处理。源码配套 http://wj.bmpw.pw/diplay/app/DiPlay-source.zip 。",
-  "source_archive_commit": "833d21cf01a2d15de0531fafbcce915beb1b17ac"
+  "source_archive_commit": "177ef9b53ddcfe783a58d65454db18b501011044"
 }
